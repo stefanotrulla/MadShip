@@ -43,13 +43,3 @@ Sono fornite due librerie di suoni da cui attingere oppure utilizzare un altri f
  (facoltativo) Aggiungere suoni all'interfaccia;
 (facoltativo) Prevedere la possibilità di completare il livello in maniera "perfect" cioè con il massimo risultato possibile: distruzione di tutti gli asteroidi generati, cattura di tutti i powerUp, ecc... . Rendere esplicito il "perfect" nell'interfaccia di fine livello.
 (facoltativo) è possibile effettuare aggiunte migliorative  senza però "snaturare" il carattere del gioco.
-Nominare il progetto Unity seguendo la forma:
-MadShip_numeroregistro_COGNOME_NOME.
-Es: MadShip_18_PORETTI_GIULIANO
-Nominare le due scene (per i due livelli di gioco):
-level_0
-level_numeroregistro
-Completato il level_0, se il giocatore preme il pulsante NEXT, dovrà caricarsi il level_numeroregistro (es: level_18)
-Generare la build, completa dei due livelli, nella cartella BUILD (da creare all'interno del progetto)
-La consegna della prova consiste nell'intero progetto Unity zippato.
-Al cui interno dovrà anche essere presente la build definitiva giocabile. 
