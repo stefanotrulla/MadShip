@@ -21,7 +21,7 @@ Gli asteroidi dovranno essere posizionati in modo randomico al di fuori dell'inq
 Al momento dell'istanziazione, l'asteroide deve essere scalato della misura voluta, e messo in lenta rotazione sul posto (applicando una forza di tipo torque:
 GetComponent<Rigidbody>().AddTorque(x,y,z).
 Definire un parametro di intervallo di tempo che determina il posizionamento di un nuovo asteroide (es: ogni secondo viene "spawnato" un nuovo asteroide e posizionato in modo casuale). La variabile deve chiamarsi: "spawnAsteroidInterval".
-Quando e` ora di posizionare un nuovo asteroide, "pescare" randomicamente il gameobject dall'array predisposto. Generare quindi un numero random tra due valori compresi. Es: Random.Range(1 , 100);
+Quando è ora di posizionare un nuovo asteroide, "pescare" randomicamente il gameobject dall'array predisposto. Generare quindi un numero random tra due valori compresi. Es: Random.Range(1 , 100);
 Nel caso di un indice dell'array:
 Random.Range(0 , asteroidsArray.Lenght-1)
 L'astronave deve poter sparare un proiettile alla pressione del tasto "fire1" (sistema input di Unity). 
@@ -35,7 +35,7 @@ I due oggetti colliders dovranno quindi essere posizionati fuori dal frustum del
 Al completamento del livello, aprire un interfaccia utente con il testo
 "LEVEL COMPLETED", un tasto  "NEXT" e un tasto "QUIT".
 Premendo il tasto quit si esce dal gioco. Premendo il tasto next si carica il livello successivo (nuova scena)
-Realizzare un secondo livello in cui inserire un elemento aggiuntivo di difficolta`, e/o un elemento aggiuntivo  di "power up" a vostra discrezione.
+Realizzare un secondo livello in cui inserire un elemento aggiuntivo di difficolta, e/o un elemento aggiuntivo  di "power up" a vostra discrezione.
 Esempio di elemento aggiuntivo di difficolta`: posizionare lungo il percorso "rottami pazzi" che magari si muovono in modo imprevisto (animator?). 
 Esempio di elemento di powerUp: posizionare lungo il percorso un oggetto "arma aggiuntiva" che, se catturata dalla nave, fornisce un cannone aggiuntivo per cui da quel momento in poi la nave sparerà due proiettili alla volta (paralleli).
 Aggiungere un suono al lancio del proiettile e alle distruzioni di asteroidi e navicella.
